@@ -3,27 +3,6 @@
 This project is a Deep Learning application for COVID-19 detection from Chest X-ray images using convolutional neural networks (CNNs).
 The system supports training, evaluation, and inference with pre-trained models.
 
-📌 Project Structure
-Covid-Chest-Xray/
-│
-├── code/                   # Main source code
-│   ├── train.py             # Training script
-│   ├── test.py              # GUI / inference script
-│   └── utils.py             # Helper functions
-│
-├── model/                  # Trained models (.keras, managed by Git LFS)
-│   ├── dense_net121.keras
-│   └── vgg16_modify_last_state.keras
-│
-├── split_data/             # Dataset split (train / val / test)
-│   ├── train/
-│   ├── val/
-│   └── test/
-│
-├── requirements.txt        # Python dependencies
-├── .gitignore
-└── README.md
-
 ⚙️ Requirements
 
 Python 3.9 – 3.11
