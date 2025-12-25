@@ -1,0 +1,22 @@
+# ===== Python cache =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== Virtual environment =====
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+venv/
+.env/
+
+# ===== Model & Data (AI/ML) =====
+*.h5
+*.pt
+*.pth
+
+# ===== OS / Editor =====
+.vscode/
+.DS_Store
+Thumbs.db
